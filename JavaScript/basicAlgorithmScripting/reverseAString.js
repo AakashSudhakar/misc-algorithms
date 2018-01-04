@@ -11,8 +11,10 @@ SOURCE:     Algorithm Challenges on freeCodeCamp.
 
 
 const reverseString = (str) => {
-    // logic goes here
-}
+    return str.split("").reverse().join("");
+};
 
-reverseString("hello");         //  =>  "olleh"
-reverseString("goodbye");       //  =>  "eybdoog"
+reverseString("hello");                         //  =>  "olleh"
+reverseString("goodbye");                       //  =>  "eybdoog"
+reverseString("Howdy");                         //  =>  "Howdy"
+reverseString("Greetings from Earth");          //  =>  "Greetings from Earth"
